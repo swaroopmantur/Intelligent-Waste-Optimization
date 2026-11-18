@@ -1039,3 +1039,63 @@ table tbody tr td:first-child {
   background-color: #203149 !important;
   min-width: 85px;
 }
+/* WasteWise - Route Optimization contrast fix */
+
+.route-result {
+  background: #1e293b !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.route-result h3 {
+  color: #ffffff !important;
+}
+
+.route-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.route-metrics > div {
+  background: #334155 !important;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.route-metrics strong {
+  display: block;
+  color: #ffffff !important;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.route-metrics span {
+  color: #cbd5e1 !important;
+  font-size: 14px;
+}
+
+.step-row {
+  background: #334155 !important;
+  color: #f8fafc !important;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.step-row strong,
+.step-row p,
+.step-row span {
+  color: #f8fafc !important;
+}
+
+.stop-number {
+  background: #16a34a !important;
+  color: #ffffff !important;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
