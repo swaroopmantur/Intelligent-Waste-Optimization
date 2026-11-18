@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import MapView from "./MapView";
 
-const API = "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL;
 
 function App() {
     const [showBinForm, setShowBinForm] = useState(false);
